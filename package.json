@@ -1,5 +1,5 @@
 {
-  "name": "browserify-ng-html2js",
+  "name": "templater",
   "version": "1.3.0",
   "description": "Browserify transform to compile angular templates into angular modules",
   "main": "lib/index.js",

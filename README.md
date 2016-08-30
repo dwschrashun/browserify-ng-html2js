@@ -55,6 +55,8 @@ gulp.task('scripts', function() {
       baseDir: "src/js" // optionally specify base directory for filename
       stripPathBefore: '/templates', // optionally specify the part of the path that should be the starting point as a string or RegExp
       prefix: '' // optionally specify a prefix to be added to the filename,
+      rootLocation: ''  // optionally specify the location to use as the root of your app for purposes of locating templates
+                // default: process.cwd()
       requireAngular: false // (default: false) optionally include `var angular = require('angular');` 
                             // Supported in Angular 1.3.14 and above if you bundle angular with browserify
     }))
